@@ -1,0 +1,1 @@
+Data in tumors_with_arm_calls.txt from Taylor AM, Shih J, Ha G, Gao GF, Zhang X, Berger AC, et al. Genomic and Functional Approaches to Understanding Cancer Aneuploidy. Cancer Cell. 2018 Apr 9;33(4):676-689.e3.
