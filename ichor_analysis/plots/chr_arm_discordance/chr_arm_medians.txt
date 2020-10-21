@@ -1,0 +1,109 @@
+###Additional discordance threshold = 0.5 diff, subclone filtering = True, subclone threshold = 0.9
+
+
+###Sample size threshold = 5
+
+###Number of Chromosome Arms Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 3.42184
+#minimum discordance = 0
+#maximum discordance = 27
+sibs_snp_hcc 0
+europdx_wgs_crc 1
+hci_snp_breast 1.0
+mdacc_wes_lusc 1
+pdmr_wes_headneck 1
+pdmr_wes_othertumor 1.0
+wustl_wes_breast 1
+europdx_wgs_brca 1.5
+mdacc_wes_otherlung 1.5
+jax_snp_gbm 2
+mdacc_wes_luad 2
+pdmr_wes_bladder 2.0
+pdmr_wes_lung 2.0
+pdmr_wes_skin 2
+wustl_wes_pancreatic 3
+hci_wes_breast 4
+jax_snu_wes_gastric 4
+pdmr_wes_sarcoma 5
+pdmr_wes_pancreas 10
+
+###Number of Chromosome Arms Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 1.53543
+#minimum discordance = 0
+#maximum discordance = 25
+jax_snp_colorectal 0.0
+jax_snp_lusc 0
+jax_snp_othertumor 0
+jax_snp_ovarian 0
+pdmr_wes_othertumor 0.0
+sibs_snp_hcc 0
+wistar_wes_melanoma 0.0
+jax_snp_bladder 0.5
+bcm_snp_breast 1.0
+europdx_wgs_brca 1
+jax_snp_luad 1
+pdmr_wes_colorectal 1
+pdmr_wes_headneck 1
+pdmr_wes_lung 1.0
+pdmr_wes_renal 1.0
+pdmr_wes_sarcoma 1
+pdmr_wes_skin 1.0
+europdx_wgs_crc 2.0
+pdmr_wes_bladder 2.0
+pdmr_wes_pancreas 2
+
+###Fraction of Chromosome Arms Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 0.08531
+#minimum discordance = 0.0
+#maximum discordance = 0.69231
+sibs_snp_hcc 0.0
+hci_snp_breast 0.025
+mdacc_wes_lusc 0.025
+pdmr_wes_headneck 0.025
+pdmr_wes_othertumor 0.025
+wustl_wes_breast 0.025
+europdx_wgs_crc 0.02564102564102564
+europdx_wgs_brca 0.03488372093023256
+mdacc_wes_otherlung 0.0375
+jax_snp_gbm 0.05
+mdacc_wes_luad 0.05
+pdmr_wes_bladder 0.05
+pdmr_wes_lung 0.05
+pdmr_wes_skin 0.05
+wustl_wes_pancreatic 0.075
+hci_wes_breast 0.1
+jax_snu_wes_gastric 0.1
+pdmr_wes_sarcoma 0.125
+pdmr_wes_pancreas 0.25
+
+###Fraction of Chromosome Arms Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 0.0384
+#minimum discordance = 0.0
+#maximum discordance = 0.64103
+jax_snp_colorectal 0.0
+jax_snp_lusc 0.0
+jax_snp_othertumor 0.0
+jax_snp_ovarian 0.0
+pdmr_wes_othertumor 0.0
+sibs_snp_hcc 0.0
+wistar_wes_melanoma 0.0
+jax_snp_bladder 0.0125
+europdx_wgs_brca 0.023255813953488372
+bcm_snp_breast 0.025
+jax_snp_luad 0.025
+pdmr_wes_colorectal 0.025
+pdmr_wes_headneck 0.025
+pdmr_wes_lung 0.025
+pdmr_wes_renal 0.025
+pdmr_wes_sarcoma 0.025
+pdmr_wes_skin 0.025
+pdmr_wes_bladder 0.05
+pdmr_wes_pancreas 0.05
+europdx_wgs_crc 0.05128205128205128
+
+
+

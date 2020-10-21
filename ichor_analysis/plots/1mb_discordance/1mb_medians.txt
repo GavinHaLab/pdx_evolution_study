@@ -1,0 +1,109 @@
+###Additional discordance threshold = 0.5 diff, subclone filtering = True, subclone threshold = 0.9
+
+
+###Sample size threshold = 5
+
+###Number of 1 Mb Bins Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 413.84368
+#minimum discordance = 0
+#maximum discordance = 1862
+sibs_snp_hcc 9
+pdmr_wes_headneck 73
+europdx_wgs_crc 130
+wustl_wes_breast 130
+pdmr_wes_othertumor 155.5
+mdacc_wes_lusc 165
+pdmr_wes_bladder 199.0
+pdmr_wes_lung 201.5
+pdmr_wes_skin 206
+hci_snp_breast 210.5
+mdacc_wes_luad 225
+jax_snp_gbm 252
+mdacc_wes_otherlung 302.0
+europdx_wgs_brca 315.0
+wustl_wes_pancreatic 331
+hci_wes_breast 454
+jax_snu_wes_gastric 543
+pdmr_wes_sarcoma 649
+pdmr_wes_pancreas 1373
+
+###Number of 1 Mb Bins Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 183.6471
+#minimum discordance = 0
+#maximum discordance = 1873
+wistar_wes_melanoma 4.5
+jax_snp_othertumor 10
+sibs_snp_hcc 14
+jax_snp_colorectal 17.5
+jax_snp_ovarian 74
+jax_snp_bladder 76.0
+pdmr_wes_renal 81.0
+pdmr_wes_skin 101.0
+jax_snp_lusc 108
+pdmr_wes_colorectal 115
+jax_snp_luad 117
+pdmr_wes_bladder 130.5
+pdmr_wes_othertumor 130.5
+pdmr_wes_lung 151.5
+pdmr_wes_headneck 155
+europdx_wgs_crc 174.0
+pdmr_wes_sarcoma 192
+europdx_wgs_brca 207
+pdmr_wes_pancreas 246
+bcm_snp_breast 306.0
+
+###Fraction of 1 Mb Bins Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 0.15409
+#minimum discordance = 0.0
+#maximum discordance = 0.69607
+sibs_snp_hcc 0.0032906764168190127
+pdmr_wes_headneck 0.02720834886321282
+europdx_wgs_crc 0.048598130841121495
+wustl_wes_breast 0.04872563718140929
+pdmr_wes_othertumor 0.05774229483847011
+mdacc_wes_lusc 0.061224489795918366
+pdmr_wes_bladder 0.07402044540490285
+pdmr_wes_lung 0.07498393427059094
+pdmr_wes_skin 0.07666542612579084
+hci_snp_breast 0.077069133241982
+mdacc_wes_luad 0.08389261744966443
+jax_snp_gbm 0.09153650563022157
+mdacc_wes_otherlung 0.11202987632260954
+europdx_wgs_brca 0.11492197607372742
+wustl_wes_pancreatic 0.12410948631421072
+hci_wes_breast 0.16771333579608422
+jax_snu_wes_gastric 0.20193380438824843
+pdmr_wes_sarcoma 0.2421641791044776
+pdmr_wes_pancreas 0.5148106486689163
+
+###Fraction of 1 Mb Bins Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 0.068
+#minimum discordance = 0.0
+#maximum discordance = 0.68283
+wistar_wes_melanoma 0.0016703786191536747
+jax_snp_othertumor 0.0036656891495601175
+sibs_snp_hcc 0.005156537753222836
+jax_snp_colorectal 0.006401490270521734
+jax_snp_ovarian 0.02688953488372093
+jax_snp_bladder 0.02782337015073588
+pdmr_wes_renal 0.030080692073888728
+pdmr_wes_skin 0.037470013171495065
+jax_snp_lusc 0.03951701427003293
+pdmr_wes_colorectal 0.04260837347165617
+jax_snp_luad 0.04292002934702861
+pdmr_wes_bladder 0.04844639566772195
+pdmr_wes_othertumor 0.04878242659703916
+pdmr_wes_lung 0.05637578250163124
+pdmr_wes_headneck 0.0576271186440678
+europdx_wgs_crc 0.06504672897196262
+pdmr_wes_sarcoma 0.07153502235469449
+europdx_wgs_brca 0.07546481954064893
+pdmr_wes_pancreas 0.09144981412639405
+bcm_snp_breast 0.11277525844132218
+
+
+

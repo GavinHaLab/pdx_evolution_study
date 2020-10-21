@@ -1,0 +1,19 @@
+###Additional discordance threshold = 0.5 diff, subclone filtering = True, subclone threshold = 0.9
+
+###Grouping 1
+no difference between 1, 2 (median = 0.0426) and 3, 4, 5, 6, 7, 8 (median = 0.0604), p value = 0.0975
+3, 4, 5, 6, 7, 8 (median = 0.0604) and 17, 18, 21 (median = 0.1128) are different with p value = 0.027
+1, 2 (median = 0.0426) and 17, 18, 21 (median = 0.1128) are different with p value = 0.0043
+
+###Grouping 2
+no difference between 1, 2, 3 (median = 0.0437) and 4, 5, 6, 7, 8 (median = 0.0581), p value = 0.1229
+4, 5, 6, 7, 8 (median = 0.0581) and 17, 18, 21 (median = 0.1128) are different with p value = 0.0361
+1, 2, 3 (median = 0.0437) and 17, 18, 21 (median = 0.1128) are different with p value = 0.0055
+
+###Grouping 3
+no difference between 1, 2 (median = 0.0426) and 3, 4, 5 (median = 0.0599), p value = 0.1293
+3, 4, 5 (median = 0.0599) and 6, 7, 8, 17, 18, 21 (median = 0.1246) are different with p value = 0.0184
+1, 2 (median = 0.0426) and 6, 7, 8, 17, 18, 21 (median = 0.1246) are different with p value = 0.003
+
+
+

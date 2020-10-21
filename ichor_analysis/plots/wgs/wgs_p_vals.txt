@@ -1,0 +1,25 @@
+###Additional discordance threshold = 0.5 diff, subclone filtering = True, subclone threshold = 0.9
+
+###europdx_wgs_brca
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 6e-05.  test stat = 133.0.  n = 42
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+no difference, p value = 0.09149.  test stat = 558.0.  n = 42
+
+###europdx_wgs_crc
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 0.03475.  test stat = 1144.0.  n = 81
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+no difference, p value = 0.48635.  test stat = 1587.0.  n = 81
+
+###both europdx wgs cohorts
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 0.00011.  test stat = 2136.0.  n = 123
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+no difference, p value = 0.18644.  test stat = 4035.0.  n = 123
+
+
+
