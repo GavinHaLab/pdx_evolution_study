@@ -1,0 +1,103 @@
+###Discordance threshold = 0.1 or 0.3 diff
+
+
+###Sample size threshold = 5
+
+###Number of Chromosome Arms Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 3.4
+#minimum discordance = 0
+#maximum discordance = 28
+sibs_snp_hcc 0
+hci_snp_breast 1.0
+pdmr_wes_headneck 1
+pdmr_wes_othertumor 1.0
+hci_wes_breast 2
+jax_snp_gbm 2
+mdacc_wes_lusc 2.0
+pdmr_wes_bladder 2.0
+pdmr_wes_lung 2.0
+wustl_wes_breast 2.0
+europdx_wgs_crc 2.5
+mdacc_wes_luad 3
+pdmr_wes_sarcoma 3
+pdmr_wes_skin 3
+europdx_wgs_brca 3.5
+jax_snu_wes_gastric 4.0
+
+###Number of Chromosome Arms Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 1.86
+#minimum discordance = 0
+#maximum discordance = 30
+jax_snp_colorectal 0.0
+jax_snp_luad 0
+jax_snp_lusc 0
+jax_snp_ovarian 0
+pdmr_wes_othertumor 0.0
+pdmr_wes_renal 0.0
+sibs_snp_hcc 0
+wistar_wes_melanoma 0.5
+bcm_snp_breast 1.0
+europdx_wgs_brca 1
+jax_snp_bladder 1.0
+jax_snp_othertumor 1
+pdmr_wes_sarcoma 1
+pdmr_wes_skin 1.0
+europdx_wgs_crc 2
+pdmr_wes_bladder 2.0
+pdmr_wes_colorectal 2.0
+pdmr_wes_headneck 2
+pdmr_wes_lung 2
+pdmr_wes_pancreas 2
+
+###Fraction of Chromosome Arms Discordant
+###Discordance of PT vs. PDX Passage
+#mean of means = 0.08
+#minimum discordance = 0.0
+#maximum discordance = 0.72
+sibs_snp_hcc 0.0
+hci_snp_breast 0.025
+pdmr_wes_headneck 0.025
+pdmr_wes_othertumor 0.025
+hci_wes_breast 0.05
+jax_snp_gbm 0.05
+mdacc_wes_lusc 0.05
+pdmr_wes_bladder 0.05
+pdmr_wes_lung 0.05
+wustl_wes_breast 0.05
+europdx_wgs_crc 0.0641025641025641
+mdacc_wes_luad 0.075
+pdmr_wes_sarcoma 0.075
+pdmr_wes_skin 0.075
+europdx_wgs_brca 0.08139534883720931
+jax_snu_wes_gastric 0.1
+
+###Fraction of Chromosome Arms Discordant
+###Discordance of PDX Passage vs. Later PDX Passage
+#mean of means = 0.05
+#minimum discordance = 0.0
+#maximum discordance = 0.75
+jax_snp_colorectal 0.0
+jax_snp_luad 0.0
+jax_snp_lusc 0.0
+jax_snp_ovarian 0.0
+pdmr_wes_othertumor 0.0
+pdmr_wes_renal 0.0
+sibs_snp_hcc 0.0
+wistar_wes_melanoma 0.0125
+europdx_wgs_brca 0.023255813953488372
+bcm_snp_breast 0.025
+jax_snp_bladder 0.025
+jax_snp_othertumor 0.025
+pdmr_wes_sarcoma 0.025
+pdmr_wes_skin 0.025
+pdmr_wes_bladder 0.05
+pdmr_wes_colorectal 0.05
+pdmr_wes_headneck 0.05
+pdmr_wes_lung 0.05
+pdmr_wes_pancreas 0.05
+europdx_wgs_crc 0.05128205128205128
+
+
+

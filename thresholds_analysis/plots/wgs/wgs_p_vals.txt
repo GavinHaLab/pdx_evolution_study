@@ -1,0 +1,27 @@
+###Discordance threshold = 0.1 or 0.3 diff
+
+
+
+###europdx_wgs_brca
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 0.0003.  test stat = 144.0.  n = 39
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+different with p value = 0.02885.  test stat = 526.0.  n = 39
+
+###europdx_wgs_crc
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 0.00074.  test stat = 564.5.  n = 66
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+no difference, p value = 0.80839.  test stat = 969.0.  n = 66
+
+###both europdx wgs cohorts
+PT:early PDX vs PT:later PDX (alternative = 'less')
+different with p value = 0.0.  test stat = 1283.5.  n = 105
+
+PT:early PDX vs early PDX: later PDX (alternative = 'greater')
+no difference, p value = 0.19272.  test stat = 3054.0.  n = 105
+
+
+

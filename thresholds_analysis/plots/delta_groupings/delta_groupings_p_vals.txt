@@ -1,0 +1,19 @@
+###Discordance threshold = 0.1 or 0.3 diff
+
+###Grouping 1
+1, 2 (median = 0.0582) and 3, 4, 5, 6, 7, 8 (median = 0.089) are different with p value = 0.0054
+no difference between 3, 4, 5, 6, 7, 8 (median = 0.089) and 17, 18, 21 (median = 0.1079), p value = 0.0907
+1, 2 (median = 0.0582) and 17, 18, 21 (median = 0.1079) are different with p value = 0.0077
+
+###Grouping 2
+1, 2, 3 (median = 0.0637) and 4, 5, 6, 7, 8 (median = 0.0755) are different with p value = 0.0499
+no difference between 4, 5, 6, 7, 8 (median = 0.0755) and 17, 18, 21 (median = 0.1079), p value = 0.0803
+1, 2, 3 (median = 0.0637) and 17, 18, 21 (median = 0.1079) are different with p value = 0.0126
+
+###Grouping 3
+1, 2 (median = 0.0582) and 3, 4, 5 (median = 0.0886) are different with p value = 0.0084
+no difference between 3, 4, 5 (median = 0.0886) and 6, 7, 8, 17, 18, 21 (median = 0.114), p value = 0.0652
+1, 2 (median = 0.0582) and 6, 7, 8, 17, 18, 21 (median = 0.114) are different with p value = 0.0037
+
+
+
