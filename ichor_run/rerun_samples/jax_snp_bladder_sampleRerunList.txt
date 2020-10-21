@@ -1,0 +1,2 @@
+sample_to_rerun	ploidy_to_use	patient
+TM01029_BL0215FPT_PT_AffySNP	3	TM01029

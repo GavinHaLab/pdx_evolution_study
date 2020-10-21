@@ -1,0 +1,2 @@
+sample_to_rerun	ploidy_to_use	patient
+961994--133-R--EQ2F03FC8_P2_WES	3	961994

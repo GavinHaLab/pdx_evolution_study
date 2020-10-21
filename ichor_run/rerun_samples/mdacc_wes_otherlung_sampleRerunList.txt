@@ -1,0 +1,4 @@
+sample_to_rerun	ploidy_to_use	patient
+TC524_PT_WES	2	TC524
+TC422_PT_WES	2	TC422
+TC430_PT_WES	3	TC430

@@ -1,0 +1,2 @@
+sample_to_rerun	ploidy_to_use	patient
+J000100672_J000103864_P1_001P0006P1_AffySNP	3	J000100672

@@ -1,0 +1,2 @@
+sample_to_rerun	ploidy_to_use	patient
+wm3936-2_P4_WES	2	3936

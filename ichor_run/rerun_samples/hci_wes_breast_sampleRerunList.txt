@@ -1,0 +1,5 @@
+sample_to_rerun	ploidy_to_use	patient
+HCI-027_PTPN_WES	3	HCI
+HCI-028_PT_WES	3	HCI
+HCI-027_P0_WES	3	HCI
+HCI-041_P0_WES	3	HCI

@@ -1,0 +1,3 @@
+sample_to_rerun	ploidy_to_use	patient
+165739--295-R--AM2_P0_WES	3	165739
+165739--295-R--AM1I30_P1_WES	3	165739

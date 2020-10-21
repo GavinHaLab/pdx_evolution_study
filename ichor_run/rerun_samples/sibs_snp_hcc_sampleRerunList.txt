@@ -1,0 +1,2 @@
+sample_to_rerun	ploidy_to_use	patient
+HCC19_P2_AffySNP	3	HCC19

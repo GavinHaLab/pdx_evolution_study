@@ -1,0 +1,8 @@
+sample_to_rerun	ploidy_to_use	patient
+HCI-001_P1_AffySNP	2	HCI
+HCI-003_PT_AffySNP	2	HCI
+HCI-012_PT_AffySNP	2	HCI
+HCI-001_P4_AffySNP	2	HCI
+HCI-003_P0_AffySNP	2	HCI
+HCI-005_P0_AffySNP	2	HCI
+HCI-011_P0_AffySNP	2	HCI
