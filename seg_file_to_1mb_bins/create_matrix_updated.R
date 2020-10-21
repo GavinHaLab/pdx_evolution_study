@@ -5,6 +5,12 @@
 # Fred Hutchinson Cancer Research Center
 # February 27th, 2020
 
+#settings used for study:
+#segFileList = segment_files_list_full_set.txt
+#normalList = PDX_normal_ids.txt
+#regionAnnotFile = hg38_1mb_bins.txt
+#annotType = chrPosn
+#duplicateFunction = severe
 
 library(foreach)
 library(plyr)
@@ -20,10 +26,8 @@ options(stringsAsFactors=FALSE)
 scriptDir <- args[1]
 segFileList <- args[2]
 normalList <- args[3]
-regionAnnotFile <- args[4] #Mus_musculus_genes_NCBIM37-mm9-May2012_cytoband.txt
+regionAnnotFile <- args[4]
 outRoot <- args[5]
-
-###added by Anna 2/10/2020
 annotType <- args[6]
 duplicateFunction <- args[7]
 imageFile <- args[8]
@@ -44,20 +48,13 @@ regionAnnot <- regionAnnot[order(regionAnnot$Chromosome), ]
 #regionAnnot$Band <- paste0(regionAnnot$Chromosome, regionAnnot$Band)
 #regionAnnot <- with(regionAnnot, GRanges(seqnames = Chromosome, ranges = IRanges(start = Start, end = End), Band = Band))
 regionAnnot <- as(regionAnnot, "GRanges")
-
-###added by Anna
 save.image(imageFile)
 
-###changed from header=T by Anna
 segFiles <- read.delim(segFileList, header=F, stringsAsFactors=F, sep="\t")[,1]
 mat <- list()
 for (i in 1:length(segFiles)){
     file_name <- basename(segFiles[i])
-
-    ###adjusted filename --Anna 2/2020
 	id <- substr(file_name, 1, nchar(file_name) - 4)
-
-    ###added skipNul = TRUE  --Anna 2/2020
 	segs <- read.delim(segFiles[i], header = TRUE, stringsAsFactors=F, sep="\t", skipNul = TRUE)
 	segs <- segs[, c(2:4, 1, 5:ncol(segs))]
 	segs[,1] <- factor(segs[,1], levels=c(1:22,"X","Y"))
