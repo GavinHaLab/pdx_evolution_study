@@ -7,7 +7,6 @@
 
 #settings used for study:
 #segFileList = segment_files_list_full_set.txt
-#normalList = PDX_normal_ids.txt
 #regionAnnotFile = hg38_1mb_bins.txt
 #annotType = chrPosn
 #duplicateFunction = severe
@@ -25,18 +24,15 @@ options(stringsAsFactors=FALSE)
 
 scriptDir <- args[1]
 segFileList <- args[2]
-normalList <- args[3]
-regionAnnotFile <- args[4]
-outRoot <- args[5]
-annotType <- args[6]
-duplicateFunction <- args[7]
-imageFile <- args[8]
+regionAnnotFile <- args[3]
+outRoot <- args[4]
+annotType <- args[5]
+duplicateFunction <- args[6]
+imageFile <- args[7]
 
 
 source(paste0(scriptDir, "/utils_updated.R"))
 chrs <- c(1:22,"X")
-## load normal list ##
-normals <- read.delim(normalList, header=F, as.is=T)[,1]
 
 ## load the mouse annotations ##
 regionAnnot <- read.delim(regionAnnotFile, header=TRUE, stringsAsFactors=FALSE, sep="\t")
